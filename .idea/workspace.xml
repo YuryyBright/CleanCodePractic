@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/Chapter_4/Descript" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_4/SRP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CleanCodePractic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CleanCodePractic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="SRP - example of solid principle">
+      <change afterPath="$PROJECT_DIR$/Chapter_4/2_OCP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_4/3_LSP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_4/SRP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_4/1_SRP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +30,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mNoP6zwhIRj0PKMKushmqYE8HS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,11 +44,12 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/PycharmProjects/CleanCodePractic",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.SRP">
-    <configuration name="SRP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1_SRP">
+    <configuration name="1_SRP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CleanCodePractic" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,7 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4/SRP.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\CleanCodePractic\Chapter_4\1_SRP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SRP" />
+        <item itemvalue="Python.1_SRP" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -124,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726926436140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SRP - example of solid principle">
+      <option name="closed" value="true" />
+      <created>1726927883458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726927883458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="SRP - example of solid principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="SRP - example of solid principle" />
   </component>
 </project>
