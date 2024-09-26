@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="SRP - example of solid principle">
-      <change afterPath="$PROJECT_DIR$/Chapter_4/2_OCP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_4/3_LSP.py" afterDir="false" />
+    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="add - OSP, LSP principles">
+      <change afterPath="$PROJECT_DIR$/Chapter_4/5_DIP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_4/SRP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_4/1_SRP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.SRP.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PycharmProjects/CleanCodePractic",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.SRP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/CleanCodePractic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.1_SRP">
     <configuration name="1_SRP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CleanCodePractic" />
@@ -132,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726927883458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add - OSP, LSP principles">
+      <option name="closed" value="true" />
+      <created>1727182769806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727182769806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="SRP - example of solid principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="SRP - example of solid principle" />
+    <MESSAGE value="add - OSP, LSP principles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add - OSP, LSP principles" />
   </component>
 </project>
