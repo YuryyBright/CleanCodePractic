@@ -1,0 +1,33 @@
+
+
+A descriptor is, therefore, just an object that is an instance of a class that implements the
+descriptor protocol. This means that this class must have its interface containing at least one
+of the following magic methods (part of the descriptor protocol as of Python 3.6+):
+        __get__
+        __set__
+        __delete__
+        __set_name__
+
+ClientClass -   The domain-level abstraction that will take advantage of the
+                functionality to be implemented by the descriptor. This class is said to
+                be a client of the descriptor.
+                This class contains a class attribute (named descriptor by this
+                convention), which is an instance of DescriptorClass.
+
+DescriptorClass -   The class that implements the descriptor itself. This class should
+                    implement some of the aforementioned magic methods that entail the
+                    descriptor protocol\
+
+client - An instance of ClientClass.client = ClientClass()
+
+
+descriptor - An instance of DescriptorClass.
+            descriptor = DescriptorClass().
+            This object is a class attribute that is placed in ClientClass
+
+! Always place the descriptor object as a class attribute!
+
+client: ClientClass -> descriptor: DescriptorClass - >      __get__
+                                                            __set__
+                                                            __delete__
+                                                            __set_name__

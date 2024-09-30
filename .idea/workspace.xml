@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="add decorator functions">
-      <change afterPath="$PROJECT_DIR$/Chapter_5/decorator_classes.py" afterDir="false" />
+    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="add decorator paramentres">
+      <change afterPath="$PROJECT_DIR$/Chapter_6/__delete__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_6/__get__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_6/__set__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_6/__set_name__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_6/descriptor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_6/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +43,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Doctests in __set_name__.executor": "Run",
     "Python.SRP.executor": "Run",
+    "Python.__get__.executor": "Run",
     "Python.decorators.executor": "Run",
+    "Python.descriptor.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,7 +55,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.decorators_functions">
+  <component name="RunManager" selected="Python tests.Doctests in __set_name__">
     <configuration name="1_SRP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CleanCodePractic" />
       <option name="ENV_FILES" value="" />
@@ -62,6 +70,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\PycharmProjects\CleanCodePractic\Chapter_4\1_SRP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__get__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CleanCodePractic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_6/__get__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="descriptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CleanCodePractic" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_6/descriptor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,11 +144,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in __set_name__" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="CleanCodePractic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_6/__set_name__.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in __set_name__" />
+        <item itemvalue="Python.__get__" />
+        <item itemvalue="Python.descriptor" />
         <item itemvalue="Python.decorators_functions" />
         <item itemvalue="Python.1_SRP" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +229,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727431913721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add decorator classes">
+      <option name="closed" value="true" />
+      <created>1727432425179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727432425179</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add decorator paramentres">
+      <option name="closed" value="true" />
+      <created>1727701695873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727701695873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +265,8 @@
     <MESSAGE value="add - OSP, LSP principles" />
     <MESSAGE value="add DIP" />
     <MESSAGE value="add decorator functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add decorator functions" />
+    <MESSAGE value="add decorator classes" />
+    <MESSAGE value="add decorator paramentres" />
+    <option name="LAST_COMMIT_MESSAGE" value="add decorator paramentres" />
   </component>
 </project>
