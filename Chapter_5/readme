@@ -1,0 +1,15 @@
+
+Good uses for decorators
+In this section, we will take a look at some common patterns that make good use of
+decorators. These are common situations for when decorators are a good choice.
+From all the countless applications decorators can be used for, we will enumerate a few, the
+most common or relevant:
+            - Transforming parameters: Changing the signature of a function to expose a nicer
+            API, while encapsulating details on how the parameters are treated and
+            transformed underneath
+            - Tracing code: Logging the execution of a function with its parameters
+            - Validate parameters
+            - Implement retry operations
+            - Simplify classes by moving some (repetitive) logic into decorators
+            - Let's discuss the first two applications in detail in the following section.
+            
