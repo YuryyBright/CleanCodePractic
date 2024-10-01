@@ -15,7 +15,3 @@ class Coordinate2D:
     def __repr__(self):
         return f"{self.__class__.__name__}({self.lat}, {self.long})"
 
-
-cord = Coordinate2D(1, 2)
-print(cord)
-
