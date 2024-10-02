@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="add descriptor">
-      <change afterPath="$PROJECT_DIR$/Chapter_5/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_6/__slots__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_6/common_problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_6/descriptors_exmpl.py" afterDir="false" />
+    <list default="true" id="129a0b67-04e7-4aeb-821c-30913026f042" name="Changes" comment="modify slots">
+      <change afterPath="$PROJECT_DIR$/Chapter_7/_generate_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_7/generators_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_7/log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_6/readme" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_6/readme" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     "Python.__slots__.executor": "Run",
     "Python.decorators.executor": "Run",
     "Python.descriptor.executor": "Run",
+    "Python.generators_1.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -55,7 +54,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.__slots__">
+  <component name="RunManager" selected="Python.generators_1">
     <configuration name="__get__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CleanCodePractic" />
       <option name="ENV_FILES" value="" />
@@ -100,28 +99,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorators_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CleanCodePractic" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PycharmProjects\CleanCodePractic\Chapter_5\decorators_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="descriptor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CleanCodePractic" />
       <option name="ENV_FILES" value="" />
@@ -136,6 +113,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_6/descriptor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generators_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CleanCodePractic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_7/generators_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generators_1" />
         <item itemvalue="Python.__slots__" />
         <item itemvalue="Python tests.Doctests in __set_name__" />
         <item itemvalue="Python.__get__" />
         <item itemvalue="Python.descriptor" />
-        <item itemvalue="Python.decorators_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727705902589</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modify and end descriptor">
+      <option name="closed" value="true" />
+      <created>1727770393012</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727770393012</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modify slots">
+      <option name="closed" value="true" />
+      <created>1727770411386</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727770411386</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +291,8 @@
     <MESSAGE value="add decorator classes" />
     <MESSAGE value="add decorator paramentres" />
     <MESSAGE value="add descriptor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add descriptor" />
+    <MESSAGE value="modify and end descriptor" />
+    <MESSAGE value="modify slots" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify slots" />
   </component>
 </project>
